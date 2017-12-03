@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money", "Test-Drivent_Development_By_Example\Money.csproj", "{0E290EF9-12A9-4164-A786-12A395A4FE13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Moeny", "UnitTestProject1\Test.Moeny.csproj", "{411EAD7E-AAE3-4089-A2B2-76425A97AFD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E290EF9-12A9-4164-A786-12A395A4FE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E290EF9-12A9-4164-A786-12A395A4FE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E290EF9-12A9-4164-A786-12A395A4FE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E290EF9-12A9-4164-A786-12A395A4FE13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411EAD7E-AAE3-4089-A2B2-76425A97AFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411EAD7E-AAE3-4089-A2B2-76425A97AFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411EAD7E-AAE3-4089-A2B2-76425A97AFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411EAD7E-AAE3-4089-A2B2-76425A97AFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C9F0EB7-45F3-465E-88CE-7998D6126B99}
+	EndGlobalSection
+EndGlobal
