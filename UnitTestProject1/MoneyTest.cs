@@ -7,6 +7,9 @@ namespace Test.Money
     [TestClass]
     public class MoneyTest
     {
+        /// <summary>
+        /// 
+        /// </summary>
         [TestMethod]
         public void TestMultiplication()
         {
@@ -17,6 +20,15 @@ namespace Test.Money
 
             product = five.Times(3);
             Assert.AreEqual(15, product.Amount);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        [TestMethod]
+        public void TestEquality()
+        {
+            Assert.IsTrue(new Dollar(5) == new Dollar(5));
+            Assert.IsFalse(new Dollar(5) == new Dollar(6));
         }
     }
 }
