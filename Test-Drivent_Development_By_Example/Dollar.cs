@@ -9,11 +9,22 @@ namespace Money
             Amount = amout;
         }
 
-        public int Amount { get; private set; }
+        private int Amount { get; set; }
 
         public Dollar Times(int multiplier)
         {
             return new Dollar(Amount * multiplier);
+        }
+
+        public override bool Equals(object obj)
+        {
+            Dollar dollar = obj as Dollar;
+            return dollar.Amount == Amount;
+        }
+
+        public override int GetHashCode()
+        {
+            return Amount;
         }
 
         public static bool operator ==(Dollar a, Dollar b)
